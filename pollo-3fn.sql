@@ -69,6 +69,16 @@ INSERT INTO sedes (sedeID, sede) values
 ("Sede Norte"),
 ("Sede Sur");
 
+create table salario(
+salarioID Int primary key, 
+salario varchar(50) not null
+);
+
+insert into salario(salarioID, salario) values
+()
+
+
+
 CREATE TABLE puestos (
     puestoID INT PRIMARY KEY,
     puesto VARCHAR(50) NOT NULL
