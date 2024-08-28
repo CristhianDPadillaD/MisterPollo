@@ -99,19 +99,22 @@ VALUES
 
 
 INSERT INTO sedes (nombre) VALUES 
-('Sede Centro'), 
 ('Sede Norte'), 
-('Sede Sur'), 
-('Sede Este'), 
-('Sede Oeste');
+('Sede Sur');
 
 
 INSERT INTO puestos (nombre) VALUES 
-('Gerente'), 
-('Supervisor'), 
-('Asistente'), 
-('Operario'), 
-('Recepcionista');
+('Mesera'),
+('Cocinero'),
+('Cajera'),
+('Gerente'),
+('Supervisora'),
+('Analista'),
+('Contador'),
+('Director'),
+('Vendedora'),
+('Asistente'),
+('Desarrollador');
 
 
 INSERT INTO horarios (empleadoID, sedeID, puestoID, horario_entrada, horario_salida) VALUES 
